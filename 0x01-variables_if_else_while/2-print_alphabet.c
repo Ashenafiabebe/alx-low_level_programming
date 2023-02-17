@@ -1,4 +1,4 @@
-#include <stdio.hi>
+#include <stdio.h>
 /**
  * main - A program that prints alphabet in lowercase, followed by a new lin
  * Return: 0
