@@ -7,6 +7,7 @@
 
 int main(void)
 {
+/*Will print the alphabet*/
 	print_alphabet();
 	return (0);
 }
