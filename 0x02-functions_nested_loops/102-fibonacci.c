@@ -24,6 +24,6 @@ int main(void)
 	}
 	++a;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
