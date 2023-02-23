@@ -2,16 +2,18 @@
 
 /**
  * _isupper - check if the letter is cappital
- * @x: Character to be checked
+ * @c: Character to be checked
  * Return: 1 if character is supper, 0 otherwise
  */
 
 int _isupper(void)
-
 {
-	if (x >= 65 && x <= 98)
+	if (c >= 'A' && c <= 'Z')
 	{
 	return (1);
 	}
+	else
+	{
 	return (0);
+}
 }
