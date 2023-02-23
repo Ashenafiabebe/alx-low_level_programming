@@ -2,11 +2,11 @@
 
 /**
  * _isupper - check if the letter is cappital
- * @x: The number to be checked
- * Return: Always 0.
+ * @x: Character to be checked
+ * Return: 1 if character is supper, 0 otherwise
  */
 
-int main(void)
+int _isupper(void)
 
 {
 	if (x >= 65 && x <= 98)
