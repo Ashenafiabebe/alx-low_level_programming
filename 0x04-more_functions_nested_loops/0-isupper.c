@@ -6,7 +6,7 @@
  * Return: 1 if character is supper, 0 otherwise
  */
 
-int _isupper(void)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
