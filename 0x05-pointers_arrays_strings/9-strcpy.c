@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
-* _strcpy - will prints a string in reverse
+* *_strcpy - copy a string
 * @dest: destination value
 * @src: source value
 * Return: the pointer to dest
 */
+
 char *_strcpy(char *dest, char *src)
 
 {
