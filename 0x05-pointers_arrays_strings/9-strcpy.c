@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* *_strcpy - will prints a string in reverse
+* _strcpy - will prints a string in reverse
 * @dest: destination value
 * @src: source value
 * Return: the pointer to dest
