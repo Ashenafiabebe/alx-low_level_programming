@@ -3,7 +3,7 @@
 /**
 * _atoi - will prints a string integer
 * @s: pointer to convert
-* integer
+* Return: integer
 */
 
 int _atoi(char *s)
