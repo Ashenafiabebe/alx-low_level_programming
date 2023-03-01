@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-* string_toupper - changes all lower case letter 
+* string_toupper - changes all lower case letter
 * @str: The string to be changed
-* Return: A pointer to the chnaged string 
+* Return: A pointer to the chnaged string
 */
 
 char *string_toupper(char *str)
