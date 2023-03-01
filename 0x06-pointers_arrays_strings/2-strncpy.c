@@ -1,5 +1,5 @@
-#include "main."
-
+#include "main.h"
+#include <stdio.h>
 /**
 * _strncpy - copy the input number
 * @dest: The string to be appended upon
