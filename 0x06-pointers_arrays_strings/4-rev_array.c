@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
-* reverse_array - Reverse the content of an array 
+* reverse_array - Reverse the content of an array
 * @a: The arrays of an integers to be reversed
-* @n: The number of elements in the array 
+* @n: The number of elements in the array
 */
 
 void reverse_array(int *a, int n)
