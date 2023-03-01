@@ -1,10 +1,9 @@
-#include "main.h"
-#include <stdio.h>
+#include "main."
 
 /**
-* _strncpy - copy the input number
-* @dest: The string to be appended upon
-* @src: The string to be appended to dest
+* *_strncpy - copy the input number
+* @*dest: The string to be appended upon
+* @*src: The string to be appended to dest
 * @n: The number of bytes form src to be appended to dest
 * Return: The pointer of the final strung
 */
