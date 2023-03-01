@@ -1,9 +1,9 @@
 #include "main."
 
 /**
-* *_strncpy - copy the input number
-* @*dest: The string to be appended upon
-* @*src: The string to be appended to dest
+* _strncpy - copy the input number
+* @dest: The string to be appended upon
+* @src: The string to be appended to dest
 * @n: The number of bytes form src to be appended to dest
 * Return: The pointer of the final strung
 */
@@ -20,7 +20,7 @@ for (index = 0; src[index] && index < n; index++)
 	dest[index] = src[index];
 
 for (index = src_len; index < n; index++)
-	dest[index] = '\n';
+	dest[index] = '\0';
 
 return (dest);
 }
