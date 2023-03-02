@@ -23,7 +23,6 @@ while (*(n2 + j) != '\0')
 i--;
 j++;
 if (j >= size_r || i >= size_r)
-
 return (0);
 while (j >= 0 || i >= 0 || overflow == 1)
 {
@@ -42,7 +41,6 @@ overflow = 1;
 else
 overflow = 0;
 if (digits >= (size_r - 1))
-
 return (0);
 *(r + digits) = (temp_tot % 10) + '0';
 digits++;
@@ -50,7 +48,6 @@ j--;
 i--;
 }
 if (digits == size_r)
-
 return (0);
 *(r + digits) = '\0';
 return (r);
