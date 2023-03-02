@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * infinite_add - a function that adds two numbers
@@ -50,6 +51,6 @@ if (digits == size_r)
 
 return (0);
 *(r + digits) = '\0';
-rev_string(r);
+
 return (r);
 }
