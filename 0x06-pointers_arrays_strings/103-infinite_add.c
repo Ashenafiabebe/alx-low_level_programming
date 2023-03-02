@@ -74,5 +74,6 @@ i--;
 if (digits == size_r)
 return (0);
 *(r + digits) = '\0';
+rev_string(r);
 return (r);
 }
