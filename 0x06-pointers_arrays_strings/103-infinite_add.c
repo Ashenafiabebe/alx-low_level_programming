@@ -19,8 +19,9 @@ int val1 = 0, val2 = 0, temp_tot = 0;
 while (*(n1 + i) != '\0')
 i++;
 while (*(n2 + j) != '\0');
-j++;
+	j++;
 i--;
+j++;
 if (j >= size_r || i >= size_r)
 
 return (0);
