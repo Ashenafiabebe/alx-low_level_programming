@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * rev_string - reverse array
  * @n: integer params
@@ -23,7 +23,6 @@ temp = *(n + j);
 *(n + i) = temp;
 }
 }
-
 
 /**
 * infinite_add - a function that adds two numbers
